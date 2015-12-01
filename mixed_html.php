@@ -1,4 +1,4 @@
-//this is some code to incorporate php elements into a basic html file. from CS50's PHP Web Development video 
+//this is some code to incorporate php and html elements. from CS50's PHP Web Development video 
 
 <?php
 
