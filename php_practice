@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>php practice</title>
+  </head>
+  
+  <body>
+    <?php
+      
+      $loggedIn = true;
+      
+      if ($loggedIn = true)
+      {
+        echo "You're logged in.";
+      }
+      else
+      {
+        echo ("Please log in.");
+      }
+    
+    ?>
+    
+  <form action="process.php" method="post">
+    Enter your name: <input name="name" type="text">
+    <input type="submit">
+  </form>
+    
+  </body>
+  
+  
+</html>
