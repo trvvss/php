@@ -5,6 +5,8 @@
     <title>php practice</title>
   </head>
   
+  //one thing
+  
   <body>
     <?php
       
@@ -21,6 +23,8 @@
     
     ?>
     
+    //another thing
+    
   <form action="process.php" method="post">
     Enter your name: <input name="name" type="text">
     <input type="submit">
@@ -28,5 +32,28 @@
     
   </body>
   
+  //another thing
+  
+  <?php
+    $people = array("Alice", "Bob", "Catherine");
+    
+    print_r($people); //print the array
+    
+    echo $people[2]; //echo 2nd element of array aka catherine
+    
+    //to loop through array (very useful!!):
+    foreach ($people as $person)
+    {
+      echo $person . ' '; //string is a space
+    }
+    
+    $numbers = array(5, 3, 7);
+    $sum = 0
+    foreach ($numbers as $number)
+    {
+      $sum = $sum + $number;
+    }
+      echo $sum;
+  ?>
   
 </html>
